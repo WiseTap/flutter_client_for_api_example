@@ -3,7 +3,7 @@
 A simple example of a Flutter App showing
 how the client side would be interacting with the server side.
 
-Check the server side by [clicking here](https://github.com/WiseTap/internal-api-example-firebase-nodejs).
+Check the server side by [clicking here](https://github.com/WiseTap/api-example-firebase-nodejs).
 
 ## Install Flutter
 This project uses the Flutter framework, [install Flutter](https://docs.flutter.dev/get-started/install).
