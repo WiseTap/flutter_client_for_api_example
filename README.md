@@ -17,12 +17,15 @@ and follow the instructions.
 
 ### First Store Owner (custom claim: `storeOwner`)
 Will not get errors
+
 ![Alt Text](gifs/store-owner-1.gif)
 
 ### Buyer (custom claim: `buyer`)
 Will get errors when trying to perform any Store Owner operations
+
 ![Alt Text](gifs/buyer.gif)
 
 ### Second Store Owner (custom claim: `storeOwner`)
 Will get error when trying to perform a operation that only **First** Store Owner can do
+
 ![Alt Text](gifs/store-owner-2.gif)
