@@ -3,7 +3,7 @@
 A simple example of a Flutter App showing
 how the client side would be interacting with the server side.
 
-Check the server side by [clicking here](https://github.com/WiseTap/internal-api-example-firebase-nodejs).
+Check the server side by [clicking here](https://github.com/WiseTap/api-example-firebase-nodejs).
 
 1. [Testing: Different users performing HTTP requests to the API](#testing-different-users-performing-http-requests-to-the-api)
 2. [Getting Started](#getting-started)
@@ -12,14 +12,17 @@ Check the server side by [clicking here](https://github.com/WiseTap/internal-api
 
 ## First Store Owner (custom claim: `storeOwner`)
 Will not get errors
+
 ![Alt Text](gifs/store-owner-1.gif)
 
 ## Buyer (custom claim: `buyer`)
 Will get errors when trying to perform any Store Owner operations
+
 ![Alt Text](gifs/buyer.gif)
 
 ## Second Store Owner (custom claim: `storeOwner`)
 Will get error when trying to perform a operation that only **First** Store Owner can do
+
 ![Alt Text](gifs/store-owner-2.gif)
 
 # Getting Started
